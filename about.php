@@ -1,0 +1,133 @@
+<?php
+$page_title = "About Us";
+
+require_once 'includes/header.php';
+?>
+
+<div class="container py-5">
+    <div class="about-section mb-5">
+        <h1 class="about-section-title">About Us</h1>
+        <div class="about-content">
+            <p>Welcome to <?php echo SITE_NAME; ?>, your premier destination for movie booking and recommendations. We are passionate about cinema and committed to providing you with the best movie-going experience.</p>
+            <p>Our platform offers a seamless and convenient way to browse movies, check showtimes, book tickets, and discover new films tailored to your preferences. With our user-friendly interface and personalized recommendations, finding your next favorite movie has never been easier.</p>
+            <p>At <?php echo SITE_NAME; ?>, we believe that movies have the power to inspire, entertain, and bring people together. Our mission is to make the joy of cinema accessible to everyone, anytime, anywhere.</p>
+        </div>
+    </div>
+    
+    <div class="about-section mb-5">
+        <h2 class="about-section-title">Our Story</h2>
+        <div class="about-content">
+            <p>Founded in 2023, <?php echo SITE_NAME; ?> was born out of a simple idea: to create a platform that makes movie booking hassle-free and enjoyable. What started as a small project has now grown into a comprehensive service trusted by thousands of movie enthusiasts.</p>
+            <p>Our journey has been driven by a deep love for cinema and a commitment to innovation. We continuously strive to enhance our platform with new features and improvements based on user feedback and industry trends.</p>
+        </div>
+    </div>
+    
+    <div class="about-section mb-5">
+        <h2 class="about-section-title">Our Vision</h2>
+        <div class="about-content">
+            <p>We envision a world where everyone can experience the magic of cinema without barriers. Our goal is to become the leading movie booking and recommendation platform, known for our exceptional user experience, personalized service, and innovative features.</p>
+            <p>We are committed to:</p>
+            <ul>
+                <li>Providing a seamless and intuitive booking experience</li>
+                <li>Offering personalized movie recommendations based on user preferences</li>
+                <li>Supporting the film industry by promoting diverse and quality cinema</li>
+                <li>Continuously improving our platform to meet the evolving needs of our users</li>
+            </ul>
+        </div>
+    </div>
+    
+    <section class="parallax-section mb-5" style="background-image: url('assets/uploads/about-parallax.gif'); background-size: cover; background-position: center; background-attachment: fixed; position: relative; color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); display: flex; align-items: center; justify-content: center; height: 300px;">
+        <div class="parallax-overlay" style="background-color: rgba(0, 0, 0, 0.3); position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+        <div class="container parallax-content" style="position: relative; z-index: 1; text-align: center;">
+            <h2 class="mb-4" style="color: white; font-weight: bold;">Our Commitment to Excellence</h2>
+            <p class="mb-0" style="color: white; font-size: 1.2rem;">We are dedicated to providing you with the best movie booking experience possible. From the latest blockbusters to indie gems, we've got you covered.</p>
+        </div>
+    </section>
+    </section>
+    <div class="about-section mb-5">
+        <h2 class="about-section-title">Our Team</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="assets/uploads/team1.png" alt="Team Member" class="team-member-img">
+                    <h4 class="team-member-name">Atharva Shah</h4>
+                    <p class="team-member-role">Frontend Developer</p>
+                    <div class="team-member-social">
+                        <a href="https://www.instagram.com/atharva_shah07/" target="_blank" class="team-member-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/viibe_high" class="team-member-social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/atharva-shah-7287352b4/" target="_blank" class="team-member-social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="assets/uploads/team2.png" alt="Team Member" class="team-member-img">
+                    <h4 class="team-member-name">Arnav Vavre</h4>
+                    <p class="team-member-role">UI/UX Designer</p>
+                    <div class="team-member-social">
+                        <a href="https://www.instagram.com/arnv1250?igsh=dWFncWNhdjhqbGU=" target="_blank" class="team-member-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="team-member-social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/arnav25?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="team-member-social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="team-member">
+                    <img src="assets/uploads/team3.png" alt="Team Member" class="team-member-img">
+                    <h4 class="team-member-name">Aryan Bage</h4>
+                    <p class="team-member-role">Backend developer</p>
+                    <div class="team-member-social">
+                        <a href="https://www.instagram.com/aryanb4ge?igsh=MWdiZDN3OXZ4amR0Zg==" target="_blank" class="team-member-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="team-member-social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/aryan-bage-4314b4296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="team-member-social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about-section">
+        <h2 class="about-section-title">Our Milestones</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2023</div>
+                    <h4 class="timeline-title">Launch of <?php echo SITE_NAME; ?></h4>
+                    <p class="timeline-description">We launched our platform with basic movie booking functionality.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2023</div>
+                    <h4 class="timeline-title">Introduction of Recommendation System</h4>
+                    <p class="timeline-description">We implemented a personalized movie recommendation system based on user preferences and booking history.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2023</div>
+                    <h4 class="timeline-title">Mobile App Launch</h4>
+                    <p class="timeline-description">We expanded our services with the launch of our mobile app for iOS and Android.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2024</div>
+                    <h4 class="timeline-title">Partnership with Major Theaters</h4>
+                    <p class="timeline-description">We established partnerships with major theater chains to offer exclusive deals and promotions.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Future</div>
+                    <h4 class="timeline-title">Global Expansion</h4>
+                    <p class="timeline-description">We plan to expand our services globally, bringing the joy of cinema to movie lovers worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+include 'includes/footer.php';
+?>
